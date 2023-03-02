@@ -1,0 +1,22 @@
+body{
+    background-color: blue;
+    background-image: linear-gradient(#0000ff, #9900ff);
+}
+#form{
+    background-color: white;
+}
+#inputs{
+    width: 100%;
+}
+#login-link{
+    text-decoration: none;
+}
+.check{
+    margin-top: 7px;
+}
+.lab{
+    margin-top: 3px;
+}
+.ckbx{
+    margin-left: 8px;
+}

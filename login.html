@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container d-flex justify-content-center align-items-center min-vh-100">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="container-fluid bg-white rounded shadow border">
+                        <div class="row header bg-light">
+                            <div class="col my-3 px-3">
+                                <h4 class="">Login Form</h4>
+                                <small id="inc-crd" class="d-none text-danger">Incorrect cridential</small>
+                            </div>
+                        </div>
+                        <div class="row body">
+                            <form class="form-group">
+                                <div class="container">
+                                    <div class="row my-3 my-4">
+                                        <div class="col">
+                                            <input type="email" id="inputs" class="name form-control"
+                                                placeholder="Enter your Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="row my-3 my-4">
+                                        <div class="col">
+                                            <input type="password" id="inputs" class="pass1 form-control"
+                                                placeholder="Enter your Password" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <small class="ckbx1">
+                                                <input class="form-check-input ckbx1 check" type="checkbox"> <label class="lab form-check-label m-1">Show Password</label>
+                                            </small>
+                                        </div>
+                                        <div class="col-6">
+                                            <small class="ckbx2">
+                                                <input class="form-check-input ckbx2 check" type="checkbox"> <label class="lab form-check-label m-1">Hide Password</label>
+                                            </small>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row my-4">
+                                        <div class="col text-center">
+                                            <a id="login" type="button" class="btn btn-primary disabled" href="https://dimpal001.github.io/dimpal">Login</a>
+                                        </div>
+                                    </div>
+                                    <div class="row my-4">
+                                        <div class="col text-center">
+                                            <p>Don't have an account? <a id="login-link" class="link" href="index.html">Signup.</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap.js"></script>
+    <script src="jQuery.js"></script>
+    <script src="logic-login.js"></script>
+    <script>
+        function redirect(){
+            window.location.href("https://dimpal001.github.io/dimpal");
+            
+        }
+    </script>
+</body>
+
+</html>

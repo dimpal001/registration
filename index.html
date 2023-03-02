@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="body" class="container-fluid">
+        <div class="container d-flex justify-content-center align-items-center min-vh-100">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="container-fluid bg-white rounded shadow border">
+                        <div class="row header bg-light">
+                            <div class="col my-3 px-3">
+                                <h4 class="">Registration Form</h4>
+                            </div>
+                            <div class="container">
+                                <div class="progress">
+                                    <div class="bar progress-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row body">
+                            <form class="form-group">
+                                <div class="container">
+                                    <div class="row my-3 my-4">
+                                        <div class="col">
+                                            <input type="text" id="inputs" class="name form-control"
+                                                placeholder="Enter your name" required>
+                                        </div>
+                                    </div>
+                                    <div class="row my-3 my-4">
+                                        <div class="col">
+                                            <input type="email" id="inputs" class="email form-control"
+                                                placeholder="Enter your Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="row my-3 my-4">
+                                        <div class="col">
+                                            <input type="password" id="inputs" class="pass1 form-control"
+                                                placeholder="Choose Password" required>
+                                        </div>
+                                    </div>
+                                    <div class="row my-3 my-4">
+                                        <div class="col">
+                                            <input type="password" id="inputs" class="pass2 form-control"
+                                                placeholder="Confirm Password" disabled required>
+                                            <small class="pass-error text-danger d-none">Confirm password should be same as the choosen</small>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <small class="ckbx1">
+                                                    <input class="form-check-input ckbx1 check" type="checkbox"> <label class="lab form-check-label m-1">Show Password</label>
+                                                </small>
+                                            </div>
+                                            <div class="col-6">
+                                                <small class="ckbx2">
+                                                    <input class="form-check-input ckbx2 check" type="checkbox"> <label class="lab form-check-label m-1">Hide Password</label>
+                                                </small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row my-4">
+                                        <div class="col text-center">
+                                            <a id="rgstr" class="btn btn-primary disabled" href="login.html">Register</a>
+                                        </div>
+                                    </div>
+                                    <div class="row my-4">
+                                        <div class="col-12 text-center">
+                                            <p>Already have an account? <a id="login-link" class="link" href="login.html">Login now.</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap.js"></script>
+    <script src="jQuery.js"></script>
+    <script src="logic.js"></script>
+</body>
+
+</html>
